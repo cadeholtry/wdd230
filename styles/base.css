@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&family=Raleway:ital,wght@0,100;0,200;1,100&display=swap');
+
+body {
+    font-family: 'Montserrat', 'Bradley Hand', sans-serif;
+    background-color: #f0f0f0;
+    color: #201E20;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+header {
+    background-color: #f0e546;
+    padding: 15px;
+    align-items: center;
+    grid-column: 1 / 4;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+img.profile {
+    width: 200px;
+    padding-right: 20px;
+    border: 2px solid #201E20; 
+    padding: 5px; 
+    box-sizing: border-box;
+}
+
+h1, img.profile {
+    margin: 0;
+    align-self: center; 
+}
+
+nav {
+    background-color: #201E20;
+    text-align: center;
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f0f0f0;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 1px solid #363636; 
+    padding-bottom: 8px;
+}
+
+h3 {
+    background-color: #f0e546;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 8px;
+}
+
+img.flag {
+    width: 50px;
+}
+
+footer {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    text-align: center;
+}
