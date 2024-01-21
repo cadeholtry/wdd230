@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&family=Raleway:ital,wght@0,100;0,200;1,100&display=swap');
+
+body {
+    font-family: 'Montserrat', 'Bradley Hand', sans-serif;
+    background-color: #f0f0f0;
+    color: #201E20;
+    
+}
+
+header {
+    background-color: #f0e546;
+    padding: 15px;
+    align-items: center;
+    grid-column: 1 / 4;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+    align-self: center; 
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+h3 {
+    background-color: #f0e546;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.card img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+img.flag {
+    width: 50px;
+}
+
+footer {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    text-align: center;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 600px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
