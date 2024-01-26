@@ -33,6 +33,10 @@ h1, img.profile {
     align-self: center; 
 }
 
+#menu {
+    display: none;
+}
+
 nav {
     background-color: #201E20;
     text-align: center;
@@ -46,7 +50,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #f0f0f0;
+    color: #000000;
+    background-color: #ccc;
     text-decoration: underline;
     margin: 0 10px;
 }
@@ -90,4 +95,22 @@ footer {
     grid-column: 1 / 4;
     grid-row: 4 / 5;
     text-align: center;
+}
+
+.active::before {
+    content: "|"; 
+}
+
+.active::after {
+    content: "|";
+}
+
+li::marker {
+    font-size: 1.3rem;
+}
+
+iframe { 
+    width: 100%;
+    height: 450;
+    display: block;
 }
