@@ -1,0 +1,153 @@
+body {
+    font-family: 'Montserrat', 'Bradley Hand', sans-serif;
+    background-color: #f0f0f0;
+    color: #201E20;
+    
+}
+
+header {
+    background-color: #f0e546;
+    padding: 15px;
+    align-items: center;
+    grid-column: 1 / 4;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+img.profile {
+    width: 200px;
+    padding-right: 20px;
+    border: 2px solid #201E20; 
+    padding: 5px; 
+    box-sizing: border-box;
+}
+
+h1, img.profile {
+    margin: 0;
+    align-self: center; 
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: #201E20;
+    color: #fff;
+}
+
+nav a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #201E20;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    display: flex;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+nav a:hover {
+    background-color: #ccc;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: underline;
+    margin: 0 10px;
+}
+
+
+.open a {
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 1px solid #363636; 
+    padding-bottom: 8px;
+    grid-column: 1 / 3;
+}
+
+h3 {
+    background-color: #f0e546;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
+footer h3 {
+    background-color: #201E20;
+    color: #fff;
+}
+
+.card, .spotlight {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+hr.rounded {
+    border-top: 20px solid #201E20;
+}
+
+footer {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    text-align: center;
+    background-color: #f0e546;
+}
+
+.active::before {
+    content: "|"; 
+}
+
+.active::after {
+    content: "|";
+}
+
+img.flag {
+    width: 50px;
+}
+
+img.hero {
+    width: 100%;
+    height: auto;
+}
+
+h4 {
+    text-align: center;
+}
+
+div.centerer {
+    padding: 20px;
+    font-size: 1.5rem;
+    background: #201E20;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+a:active {
+    color:#f0f0f0;
+}
+
+a:visited {
+    color:#f0f0f0;
+}
