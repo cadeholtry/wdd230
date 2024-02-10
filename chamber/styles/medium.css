@@ -31,4 +31,13 @@
         text-decoration: underline;
         margin: 0 10px;
     }
+    #mode {
+        font-size: 1.5rem;
+        border: 0;
+        background: none;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        display: flex;
+    }
 }
