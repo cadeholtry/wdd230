@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cade Holtry - WDD 230 - Web Frontend Development Lesson 6</title>
+    <meta name="author" content="Cade Holtry">
+    <meta name="description" content="Cade Holtry - WDD 230 - Web Frontend Development - Responsive Images">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+    <meta property="og:title" content="Responsive Images Lesson">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cadeholtry.github.io/wdd230">
+    <meta property="og:image" content="https://github.com/cadeholtry/wdd230/blob/main/images/california.jpg">
+</head>
+<body>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                <img src="images/hero-large.webp" alt="The Sacramento Temple" width="1500" height="750">
+            </picture>
+        </div>
+    </main>
+</body>
+</html>
