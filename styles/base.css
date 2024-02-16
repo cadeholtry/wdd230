@@ -114,3 +114,32 @@ iframe {
     height: 450px;
     display: block;
 }
+
+.hero img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero {
+    position: relative;
+    margin: 10px auto;
+}
+
+.herolabel {
+    position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#f0e546, #fff);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+}
+
+.herolabel p {
+    margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 1.7rem;
+    color: #000000;
+}

@@ -58,4 +58,8 @@
     iframe.open{
         display: none;
     }
+
+    .herolabel p {
+        font-size: 1.2rem;
+    }
 }
