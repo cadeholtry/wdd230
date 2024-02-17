@@ -14,11 +14,11 @@
     <meta property="og:title" content="Cade's Chamber Project">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://cadeholtry.github.io/wdd230/chamber/index.html">
-    <meta property="og:image" content="https://github.com/cadeholtry/wdd230/blob/main/images/california.jpg">
+    <meta property="og:image" content="https://github.com/cadeholtry/wdd230/blob/main/images/california.webp">
 </head>
 <body>
     <header>
-        <img class="profile" src="images/folsom-logo.png" alt="The logo of the city of Folsom">
+        <img class="profile" src="images/folsom-logo.webp" alt="The logo of the city of Folsom">
         <h1>Folsom Chamber of Commerce</h1>
     </header>
     <div id="mode">
@@ -32,7 +32,19 @@
         <a href="">Join</a>
     </nav>
     <main>
-        <img class="hero" src="images/hero-image.png" alt="Wide view of a section of Folsom">
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 600px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1200px)">
+                <img src="images/hero-large.webp" alt="Standin image" width="1500" height="700">
+            </picture>
+            <div class="herolabel">
+                <p class="small">Small</p>
+                <p class="medium">Medium</p>
+                <p class="large">Large</p>
+            </div>
+        </div>
+        <!--<img class="hero" src="images/hero-image.webp" alt="Wide view of a section of Folsom">-->
         <div class="centerer">
             <a href="" class="action">Join The Chamber Now!</a>
         </div>
@@ -42,8 +54,8 @@
                 <h4>The train people are doing there usual get together I guess.</h4>
             </section>
             <section class="card">
-                <h3>Current Weather:</h3>
-                <h4>It's real stormy.</h4>
+                <h3>Current Windchill:</h3>
+                <h4 id="windchill"></h4>
             </section>
         </div>
         <hr class="rounded">
@@ -64,10 +76,11 @@
     </main>
     <footer>
         <h3>Contact Us At: (916)555-0195</h3>
-        <p>&copy; <span id="currentyear"></span> | Cade Holtry | WDD230 | California</p><img class="flag" src="images/flag.jpg" alt="Flag of California">
+        <p>&copy; <span id="currentyear"></span> | Cade Holtry | WDD230 | California</p><img class="flag" src="images/flag.webp" alt="Flag of California">
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

@@ -48,4 +48,22 @@
         top: 1rem;
         display: flex;
     }
+    .herolabel {
+        position: absolute;
+        top: -120px;
+        left: 300px;
+    }
+    .small {
+        opacity: 0%;
+    }
+    .medium {
+        opacity: 0%;
+    }
+    
+    .large {
+        opacity: 100%;
+    }
+    .herolabel p {
+        font-size: 4rem;
+    }
 }
