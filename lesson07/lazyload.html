@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cade Holtry - WDD 230 - Web Frontend Development</title>
+    <meta name="author" content="Cade Holtry">
+    <meta name="description" content="Cade Holtry - WDD 230 - Web Frontend Development - Lazy Loading Lesson">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Lazy Loading Lesson">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cadeholtry.github.io/wdd230">
+    <meta property="og:image" content="https://github.com/cadeholtry/wdd230/blob/main/images/california.webp">
+</head>
+<body>
+    <header>
+        <h1>Lazy Loading Activity</h1>
+    </header>
+    <main>
+        <img src="images/back.webp" alt="Zelda card back" loading="lazy" width="400px" height="600px">
+        <img src="images/forbid.webp" alt="Zelda attack card 1" loading="lazy" width="400px" height="600px">
+        <img src="images/lose.webp" alt="Zelda attack card 2" loading="lazy" width="400px" height="600px">
+        <img src="images/only.webp" alt="Zelda attack card 3" loading="lazy" width="400px" height="600px">
+        <img src="images/purify.webp" alt="Zelda versatile card" loading="lazy" width="400px" height="600px">
+        <img src="images/sage.webp" alt="Zelda scheme card" loading="lazy" width="400px" height="600px">
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Cade Holtry | California</p><img class="flag" src="images/flag.webp" alt="Flag of California">
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+main {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    background: black;
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+img.flag {
+    width: 50px;
+}
+
+footer {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    text-align: center;
+}
