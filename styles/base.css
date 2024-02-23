@@ -137,7 +137,7 @@ iframe {
 }
 
 .herolabel h3 {
-    background-color: none;
+    background-color: transparent;
     margin: 0;
 	padding: .25rem;
 	font-weight: 700;
