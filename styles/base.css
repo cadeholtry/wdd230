@@ -136,7 +136,8 @@ iframe {
 	opacity: 0.75;
 }
 
-.herolabel p {
+.herolabel h3 {
+    background-color: none;
     margin: 0;
 	padding: .25rem;
 	font-weight: 700;
