@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cade Holtry - WDD 230 - Web Frontend Development - Chamber of Commerce</title>
+    <meta name="author" content="Cade Holtry">
+    <meta name="description" content="Cade Holtry - WDD 230 - Web Frontend Development - Chamber Project">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Cade's Chamber Project">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cadeholtry.github.io/wdd230/chamber/index.html">
+    <meta property="og:image" content="https://github.com/cadeholtry/wdd230/blob/main/images/california.webp">
+</head>
+<body>
+    <header>
+        <img class="profile" src="images/folsom-logo.webp" alt="The logo of the city of Folsom">
+        <h1>Folsom Chamber of Commerce</h1>
+    </header>
+    <div id="mode">
+        🕶️
+    </div>
+    <button id="menu"></button>
+    <nav>
+        <a href="chamber/index.html">Home</a>
+        <a href="#" class="active">Discover</a>
+        <a href="">Directory</a>
+        <a href="">Join</a>
+    </nav>
+    <main>
+        <div class="page">
+            <div class="content">
+                <div class="card">
+                    <h2>Upcoming Event:</h2>
+                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, possimus voluptatum laboriosam maiores, ratione corrupti a accusantium corporis cumque quaerat illum obcaecati magnam hic eum repudiandae tempore quidem doloremque magni!</h3>
+                </div>
+                <div class="card">
+                    <h2>Upcoming Event:</h2>
+                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, possimus voluptatum laboriosam maiores, ratione corrupti a accusantium corporis cumque quaerat illum obcaecati magnam hic eum repudiandae tempore quidem doloremque magni!</h3>
+                </div>
+                <div class="card">
+                    <h2>Visitation Data:</h2>
+                    <p><span id="days"></span></p>
+                </div>
+            </div>
+            <div class="pictures">
+                <figure>
+                    <img class="folsom" src="images/1.webp" alt="Folsom image 1" loading="lazy" width="1000px" height="667px">
+                    <figcaption>Rainbow Bridge</figcaption>
+                </figure>
+                <figure>
+                    <img class="folsom" src="images/2.webp" alt="Folsom image 2" loading="lazy" width="1000px" height="667px">
+                    <figcaption>Sutter Street in Old Folsom</figcaption>
+                </figure>
+                <figure>
+                    <img class="folsom" src="images/3.webp" alt="Folsom image 3" loading="lazy" width="1000px" height="667px">
+                    <figcaption>The Old Train Station</figcaption>
+                </figure>                
+                <figure>
+                    <img class="folsom" src="images/4.webp" alt="Folsom image 4" loading="lazy" width="1000px" height="667px">
+                    <figcaption>Folsom Dam</figcaption>
+                </figure>
+                <figure>
+                    <img class="folsom" src="images/5.webp" alt="Folsom image 5" loading="lazy" width="1000px" height="667px">
+                    <figcaption>City Hall</figcaption>
+                </figure>
+                <figure>
+                    <img class="folsom" src="images/6.webp" alt="Folsom image 6" loading="lazy" width="1000px" height="667px">            
+                    <figcaption>Folsom Aerial View</figcaption>
+                </figure>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h3>Contact Us At: (916)555-0195</h3>
+        <p>&copy; <span id="currentyear"></span> | Cade Holtry | WDD230 | California</p><img class="flag" src="images/flag.webp" alt="Flag of California">
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/dayssince.js"></script>
+</body>
+</html>

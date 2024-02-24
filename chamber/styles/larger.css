@@ -66,4 +66,9 @@
     .herolabel p {
         font-size: 4rem;
     }
+    .page {
+        grid-template-columns: 1fr 2fr;
+    }
+    .folsom:hover {box-shadow: 0 0 15px #333;}
+
 }

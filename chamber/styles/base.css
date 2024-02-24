@@ -195,3 +195,25 @@ a:visited {
 	font-size: 1.7rem;
     color: #000000;
 }
+
+.page {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    background: #ddd;
+}
+
+.folsom {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    background: #f0e546;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content .card{
+    background-color: #fff;
+}
