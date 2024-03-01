@@ -1,0 +1,73 @@
+:root {
+    --main_color: black;
+    --secondary_color: gray;
+    --background_color: white;
+}
+
+main {
+    display: block;
+}
+fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--secondary_color);
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+legend {
+    color: var(--main_color);
+    padding: 0 .5rem;
+}
+
+label {
+    display: block;
+    padding-top: 1rem;
+    color: var(--main_color);
+    font-size: .9rem;
+}
+
+#form {
+    padding-top: 1rem;
+    color: var(--main_color);
+    font-size: .9rem;
+}
+
+input[type="text"],
+input[type="email"] {
+    background-color: var(--background_color);
+    display: block;
+    border: solid 1px lightgray;
+    border-radius: 6px;
+    padding: .75rem;
+    color: var(--secondary_color);
+    width: 90%;
+    max-width: 400px;
+    appearance: none;
+}
+
+input[type="range"] {
+    margin-right: 6px;
+}
+
+#rangevalue {
+    font-size: 2rem;
+}
+
+input[type="submit"] {
+    background-image: linear-gradient(rgb(248, 250, 143), rgb(255, 241, 39));
+    color:black;
+    border-radius: 6px;
+    padding: .8rem;
+    max-width: 400px;
+    width: 96%;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px var(--secondary_color);
+}
+
+input:required {
+    border-right: solid 8px red;
+}
+
+input:required:valid {
+    border-right: solid 8px green;
+}
