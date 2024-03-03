@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cade Holtry - WDD 230 - Web Frontend Development - Chamber of Commerce - Join</title>
+    <meta name="author" content="Cade Holtry">
+    <meta name="description" content="Cade Holtry - WDD 230 - Web Frontend Development - Chamber Project Join Page">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Cade's Chamber Project">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cadeholtry.github.io/wdd230/chamber/index.html">
+    <meta property="og:image" content="https://github.com/cadeholtry/wdd230/blob/main/images/california.webp">
+</head>
+<body>
+    <header>
+        <img class="profile" src="images/folsom-logo.webp" alt="The logo of the city of Folsom">
+        <h1>Folsom Chamber of Commerce</h1>
+    </header>
+    <div id="mode">
+        🕶️
+    </div>
+    <button id="menu"></button>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="">Directory</a>
+        <a href="#" class="active">Join</a>
+    </nav>
+    <main>
+        <div id="form">
+            <h1>Join the Chamber Today!</h1>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <label>First Name* <input type="text" name="fname" id="fname" required></label>
+                    <label>Last Name* <input type="text" name="lname" id="lname" required></label>
+                    <label>Title or Position* <input type="text" name="title" id="title" pattern="[a-zA-Z0-9\- ]{7,}" required></label>
+                    <label>Email* <input type="email" id="email" name="email" placeholder="YourEmail@gmail.com" title="A valid email address." required></label>
+                    <label>Phone* <input type="tel" name="phone" id="phone" required></label>
+                    <label>Business / Organization Name* <input type="text" name="buisorg" id="buisorg" required></label>
+                    <div id="membership">Desired Membership Level:</div>
+                    <label><input type="radio" name="membership" value="gold">Gold Membership</label>
+                    <label><input type="radio" name="membership" value="silver">Silver Membership</label>
+                    <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                    <label><input type="radio" name="membership" value="np">NP Membership</label>
+                    <label for="description">Enter Your Organization / Business Description:</label>
+                    <textarea id="description" name="description" rows="4" cols="50"></textarea>
+                    <input type="hidden" id="datetime" name="datetime">
+                </fieldset>
+                <input type="submit" value="Submit Your Form!">
+            </form>
+        </div>
+        <div id="benefits">
+            <section class="card">
+                <h3>Gold Membership ($5,000+)</h3>
+                <h4>Gold Membership holders gain all benefits, and are first in line for booth spots, newsletter pages, and other advertisement opprotunities. Gold members also gain insight into uncoming events before other members, allowing for better preperation for them.</h4>
+            </section>
+            <section class="card">
+                <h3>Silver Membership ($1,000+)</h3>
+                <h4>Silver Members gain all the benefits of a Bronze and NP Member, along with potential to set up booths at events, entire pages in the newsletter, and additional advertisement in the city area.</h4>
+            </section>
+            <section class="card">
+                <h3>Bronze Membership ($100+)</h3>
+                <h4>Bronze Members get all the benefits of the Non-Profit Members as well as additional benefits. These include free swag and newsletters monthly. Features in these newsletters may also happen. 
+                </h4>
+            </section>
+            <section class="card">
+                <h3>Non-Profit Membership</h3>
+                <h4>Holders of the NP Membership will get their company or business advertised in their own category on our website and events, as well as potential features in our monthly newsletters!</h4>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <h3>Contact Us At: (916)555-0195</h3>
+        <p>&copy; <span id="currentyear"></span> | Cade Holtry | WDD230 | California</p><img class="flag" src="images/flag.webp" alt="Flag of California">
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
