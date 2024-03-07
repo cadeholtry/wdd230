@@ -1,0 +1,30 @@
+{
+    "wardInfo": {
+        "familyName": "Holtry",
+        "moveIn": "2011-06-01",
+        "numRecords": 4,
+        "bishopVisited": false,
+        "familyMembers": [
+            {
+                "name": "Lance Holtry",
+                "gender": "male",
+                "birthdate": "1968-09-24"
+            },
+            {
+                "name": "Jeanne Holtry",
+                "gender": "female",
+                "birthdate": "1970-06-21"
+            },
+            {
+                "name": "Carly Holtry",
+                "gender": "female",
+                "birthdate": "1998-01-02"
+            },
+            {
+                "name": "Cade Holtry",
+                "gender": "male",
+                "birthdate": "2002-03-01"
+            }
+        ]
+    }
+}
