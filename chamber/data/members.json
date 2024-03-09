@@ -5,7 +5,7 @@
             "address": "1800 Cavitt Dr",
             "phone": "(916) 850-1000",
             "website": "costco.com",
-            "icon": "Costco.webp",
+            "icon": "images/Costco.webp",
             "level": "Silver"
         },
         {
@@ -13,7 +13,7 @@
             "address": "2379 Iron Point Rd",
             "phone": "(916) 605-4040",
             "website": "chipotle.com",
-            "icon": "Chipotle.webp",
+            "icon": "images/Chipotle.webp",
             "level": "Bronze"
         },
         {
@@ -21,7 +21,7 @@
             "address": "225 Placerville Rd",
             "phone": "(800) 786-1000",
             "website": "in-n-out.com",
-            "icon": "InNOut.webp",
+            "icon": "images/InNOut.webp",
             "level": "Bronze"
         },
         {
@@ -29,7 +29,7 @@
             "address": "2155 Iron Point Rd",
             "phone": "(916) 817-5444",
             "website": "thrive.kaiserpermanente.org",
-            "icon": "Kaiser.webp",
+            "icon": "images/Kaiser.webp",
             "level": "Gold"
         },
         {
@@ -37,7 +37,7 @@
             "address": "89 Scholar Way",
             "phone": "(916) 936-1630",
             "website": "churchofjesuschrist.org",
-            "icon": "Church.webp",
+            "icon": "images/Church.webp",
             "level": "NP"
         },
         {
@@ -45,7 +45,7 @@
             "address": "2679 E Bidwell St",
             "phone": "(916) 817-2697",
             "website": "chick-fil-a.com",
-            "icon": "ChickFilA.webp",
+            "icon": "images/ChickFilA.webp",
             "level": "Silver"
         },
         {
@@ -53,7 +53,7 @@
             "address": "25002 Blue Ravine Rd",
             "phone": "(916) 983-0855",
             "website": "tacobell.com",
-            "icon": "TacoBell.webp",
+            "icon": "images/TacoBell.webp",
             "level": "Bronze"
         }
     ]
