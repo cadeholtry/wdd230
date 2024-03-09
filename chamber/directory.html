@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cade Holtry - WDD 230 - Web Frontend Development - Chamber of Commerce - Discover</title>
+    <meta name="author" content="Cade Holtry">
+    <meta name="description" content="Cade Holtry - WDD 230 - Web Frontend Development - Chamber Project Discover Page">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Cade's Chamber Project">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cadeholtry.github.io/wdd230/chamber/index.html">
+    <meta property="og:image" content="https://github.com/cadeholtry/wdd230/blob/main/images/california.webp">
+</head>
+<body>
+    <header>
+        <img class="profile" src="images/folsom-logo.webp" alt="The logo of the city of Folsom">
+        <h1>Folsom Chamber of Commerce</h1>
+    </header>
+    <div id="mode">
+        🕶️
+    </div>
+    <button id="menu"></button>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="#" class="active">Directory</a>
+        <a href="join.html">Join</a>
+    </nav>
+    <main>
+        <div class="type">
+            <button id="grid">Grid View</button>
+            <button id="list">List View</button>
+        </div>
+        <article class="grid"></article>
+    </main>
+    <footer>
+        <h3>Contact Us At: (916)555-0195</h3>
+        <p>&copy; <span id="currentyear"></span> | Cade Holtry | WDD230 | California</p><img class="flag" src="images/flag.webp" alt="Flag of California">
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/members.js"></script>
+</body>
+</html>
