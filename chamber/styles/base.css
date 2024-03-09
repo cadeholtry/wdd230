@@ -227,6 +227,8 @@ figcaption {
     height: 100px;
 	max-width: 100%;
     margin-bottom: -1rem;
+    background-color: white;
+    box-shadow: 0 0 10px #333;
 }
 
 .grid p {
@@ -244,10 +246,23 @@ figcaption {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0 0 10px #333;
 }
 
 .grid #gold {
-    background-color: #ffeea0;
+    background-color: #fff2b8;
+}
+
+.grid #silver {
+    background-color: #ebebeb;
+}
+
+.grid #bronze {
+    background-color: #d3c0a6;
+}
+
+.grid #np {
+    background-color: #d4ffd3;
 }
 
 .grid #name {
@@ -258,4 +273,5 @@ figcaption {
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: .7rem;
+    color: blue;
 }

@@ -1,11 +1,27 @@
 {
     "members": [
         {
+            "name": "Kasier Permanente",
+            "address": "2155 Iron Point Rd",
+            "phone": "(916) 817-5444",
+            "website": "https://thrive.kaiserpermanente.org",
+            "icon": "images/Kaiser.webp",
+            "level": "gold"
+        },
+        {
             "name": "Costco",
             "address": "1800 Cavitt Dr",
             "phone": "(916) 850-1000",
             "website": "https://www.costco.com",
             "icon": "images/Costco.webp",
+            "level": "silver"
+        },
+        {
+            "name": "Chick Fil A",
+            "address": "2679 E Bidwell St",
+            "phone": "(916) 817-2697",
+            "website": "https://www.chick-fil-a.com",
+            "icon": "images/ChickFilA.webp",
             "level": "silver"
         },
         {
@@ -25,12 +41,12 @@
             "level": "bronze"
         },
         {
-            "name": "Kasier Permanente",
-            "address": "2155 Iron Point Rd",
-            "phone": "(916) 817-5444",
-            "website": "https://thrive.kaiserpermanente.org",
-            "icon": "images/Kaiser.webp",
-            "level": "gold"
+            "name": "Taco Bell",
+            "address": "25002 Blue Ravine Rd",
+            "phone": "(916) 983-0855",
+            "website": "https://www.tacobell.com",
+            "icon": "images/TacoBell.webp",
+            "level": "bronze"
         },
         {
             "name": "Church of Jesus Christ of Latter Day Saints",
@@ -39,22 +55,6 @@
             "website": "https://www.churchofjesuschrist.org",
             "icon": "images/Church.webp",
             "level": "np"
-        },
-        {
-            "name": "Chick Fil A",
-            "address": "2679 E Bidwell St",
-            "phone": "(916) 817-2697",
-            "website": "https://www.chick-fil-a.com",
-            "icon": "images/ChickFilA.webp",
-            "level": "silver"
-        },
-        {
-            "name": "Taco Bell",
-            "address": "25002 Blue Ravine Rd",
-            "phone": "(916) 983-0855",
-            "website": "https://www.tacobell.com",
-            "icon": "images/TacoBell.webp",
-            "level": "bronze"
         }
     ]
 }
