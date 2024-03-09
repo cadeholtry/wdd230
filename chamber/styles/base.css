@@ -239,13 +239,16 @@ figcaption {
 }
 
 .grid section {
+    align-items: center;
+}
+
+section {
     margin: 0.25rem;
     padding: 0.35rem;
     background-color: #eee;
     border: 1px solid #bbb;
     display: flex;
     flex-direction: column;
-    align-items: center;
     box-shadow: 0 0 10px #333;
 }
 
@@ -274,4 +277,51 @@ figcaption {
     margin-bottom: 25px;
     font-size: .7rem;
     color: blue;
+}
+
+.type {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #f0e546;
+	text-align: center;
+}
+
+.type button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+.list #name {
+    display: block;
+}
+
+.list img {
+    display: none;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+    margin: 0 1rem;
+}
+
+.list section {
+	margin: 0;
+	padding: 0.5rem;
+}
+
+.list section p {
+	font-size: 1rem;
+    margin-right: .7rem;
+}
+
+.list a {
+    font-size: .9rem;
+    color: blue;
+    margin-bottom: 1rem;
+}
+
+.list section:nth-child(even) {
+	background-color: rgb(204, 204, 204);
 }
