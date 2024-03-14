@@ -144,3 +144,15 @@ iframe {
 	font-size: 1.7rem;
     color: #000000;
 }
+
+#weather {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #ccc;
+}
+
+#weather h4 {
+    text-transform: capitalize;
+    line-height: 8px;
+}
