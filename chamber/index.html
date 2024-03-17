@@ -18,6 +18,9 @@
 </head>
 <body>
     <header>
+        <div class="dropdown-notification text-center disabled" id="dropdown">
+            Attend our Chamber Meet and Greet on Wednesday at 7:00 p.m.! <a class="close" href="javascript:closeDropdown()">❌</a>
+        </div>
         <img class="profile" src="images/folsom-logo.webp" alt="The logo of the city of Folsom">
         <h1>Folsom Chamber of Commerce</h1>
     </header>
@@ -49,10 +52,29 @@
             <a href="" class="action">Join The Chamber Now!</a>
         </div>
         <div class="events-and-weather">
-            <section class="card">
-                <h3>Current Events:</h3>
-                <h4>The train people are doing there usual get together I guess.</h4>
-            </section>
+            <div class="letSide">
+                <section class="card">
+                    <h3>Current Events:</h3>
+                    <h4>The train people are doing there usual get together I guess.</h4>
+                </section>
+                <section class="card">
+                    <h3>Current Weather:</h3>
+                    <div id="weather">
+                        <div id="forecast1">
+                            <img id="weather-icon1" src="" alt="">
+                            <h4>Today - <span id="day1"></span> - <span id="figcaption1"></span></h4>
+                        </div>
+                        <div id="forecast2">
+                            <img id="weather-icon2" src="" alt="">
+                            <h4><span id="date1"></span> - <span id="day2"></span> - <span id="figcaption2"></span></h4>
+                        </div>
+                        <div id="forecast3">
+                            <img id="weather-icon3" src="" alt="">
+                            <h4><span id="date2"></span> - <span id="day3"></span> - <span id="figcaption3"></span></h4>
+                        </div>
+                    </div>
+                </section>
+            </div>
             <section class="card">
                 <h3>Current Windchill:</h3>
                 <h4 id="windchill">N/A</h4>
@@ -82,5 +104,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
