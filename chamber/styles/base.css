@@ -188,14 +188,6 @@ a:visited {
     opacity: 0%;
 }
 
-.herolabel p {
-    margin: 0;
-	padding: .25rem;
-	font-weight: 700;
-	font-size: 1.7rem;
-    color: #000000;
-}
-
 .page {
     display: grid;
     grid-gap: 10px;
