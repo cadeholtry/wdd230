@@ -15,22 +15,75 @@
     <meta property="og:image" content="https://github.com/cadeholtry/wdd230/blob/main/images/california.webp">
 </head>
 <body>
+    <header>
+        <img class="icon" src="images/icon.webp" alt="Scoots main icon">
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="rentals.html">Rentals</a>
+            <a href="reservations.html">Reservations</a>
+            <a href="contact.html" target="_blank">Contact</a>
+        </nav>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 600px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1200px)">
+                <img src="images/hero-large.webp" alt="Overview of Cozumel" width="1500" height="700" loading="lazy">
+            </picture>
+            <div class="overlay">
+                <h3>Get out there and enjoy the island on our scooters!</h3>
+            </div>
+        </div>
+    </header>
     <main>
-
+        <section class="card">
+            <h2>Types of Rentals</h2>
+            <div id="rentals">
+                <h3>Scooters:</h3>
+                <ol>
+                    <li>Honda Metropolitan (49cc) - 1 person</li>
+                    <li>Honda Dio (110cc) - 2 person</li>
+                    <li>Honda PCX150 (149cc) - 2 person</li>
+                </ol>
+                <h3>ATVs:</h3>
+                <ol>
+                    <li>Honda Pioneer 1000 - 4 person</li>
+                </ol>
+                <h3>Jeeps:</h3>
+                <ol>
+                    <li>Jeep Wrangler - 4 door manuel with A/C - 5 person</li>
+                    <li>Jeep Wrangler - 2 door - open air - manuel - 4 person</li>
+                </ol>
+            </div>
+        </section>
+        <section class="card">
+            <h2>Weather</h2>
+            <div id="weather">
+                <div id="today">
+                    <img id="weather-icon1" src="replace" alt="">
+                    <h4>Today - <span id="day1"></span> - <span id="figcaption1"></span></h4>
+                    <h5>Humidity - <span id="humidity1"></span></h5>
+                </div>
+                <div id="tomorrow">
+                    <img id="weather-icon2" src="replace" alt="">
+                    <h4><span id="date1"></span> - <span id="day2"></span> - <span id="figcaption2"></span></h4>
+                    <h5>Humidity - <span id="humidity2"></span></h5>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <h3>Contact us at (916)555-0195 or check out our socials:</h3>
-        <a href="www.instagram.com">
-            <img src="images/instagram.webp" alt="Instagram">
+        <a href="https://instagram.com">
+            <img src="images/instagram.webp" alt="Instagram" loading="lazy">
         </a>
-        <a href="www.facebook.com">
-            <img src="images/facebook.webp" alt="Facebook">
+        <a href="https://facebook.com">
+            <img src="images/facebook.webp" alt="Facebook" loading="lazy">
         </a>
-        <a href="www.x.com">
-            <img src="images/twitter.webp" alt="Twitter">
+        <a href="https://x.com">
+            <img src="images/twitter.webp" alt="Twitter" loading="lazy">
         </a>
-        <a href="www.youtube.com">
-            <img src="images/youtube.webp" alt="Youtube">
+        <a href="https://youtube.com">
+            <img src="images/youtube.webp" alt="Youtube" loading="lazy">
         </a>
     </footer>
 </body>
