@@ -1,0 +1,28 @@
+@media screen and (max-width: 5000px) and (min-width: 1200px) {
+    .dropdown-notification {
+        font-size: 60px;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 400px;
+        grid-gap: 10px;
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .info {
+        font-size: 40px;
+    }
+    .overlay a {
+        font-size: 50px;
+    }
+}

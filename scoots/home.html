@@ -8,6 +8,8 @@
     <meta name="description" content="Cade Holtry - WDD 230 - Web Frontend Development - Scoots Home Page">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Scoots Home Page">
     <meta property="og:type" content="website">
@@ -16,7 +18,12 @@
 </head>
 <body>
     <header>
-        <img class="icon" src="images/icon.webp" alt="Scoots main icon">
+        <a href="home.html">
+            <img class="icon" src="images/icon.webp" alt="Scoots main icon" loading="lazy">
+        </a>
+        <div class="dropdown-notification text-center disabled" id="dropdown">
+            Today's highest temperature: <span id="temp-max"></span> <a class="close" href="javascript:closeDropdown()">❌</a>
+        </div>
         <nav>
             <a href="#" class="active">Home</a>
             <a href="rentals.html">Rentals</a>
@@ -30,14 +37,17 @@
                 <img src="images/hero-large.webp" alt="Overview of Cozumel" width="1500" height="700" loading="lazy">
             </picture>
             <div class="overlay">
-                <h3>Get out there and enjoy the island on our scooters!</h3>
+                <a href="reservations.html">Get out there and enjoy the island on our scooters! Make a reservation now!</a>
             </div>
+        </div>
+        <div class="info">
+            <a href="contact.html" target="_blank">Need directions or to contact us? Click here!</a>
         </div>
     </header>
     <main>
         <section class="card">
             <h2>Types of Rentals</h2>
-            <div id="rentals">
+            <div id="rentals">              
                 <h3>Scooters:</h3>
                 <ol>
                     <li>Honda Metropolitan (49cc) - 1 person</li>
@@ -72,19 +82,22 @@
         </section>
     </main>
     <footer>
-        <h3>Contact us at (916)555-0195 or check out our socials:</h3>
-        <a href="https://instagram.com">
-            <img src="images/instagram.webp" alt="Instagram" loading="lazy">
-        </a>
-        <a href="https://facebook.com">
-            <img src="images/facebook.webp" alt="Facebook" loading="lazy">
-        </a>
-        <a href="https://x.com">
-            <img src="images/twitter.webp" alt="Twitter" loading="lazy">
-        </a>
-        <a href="https://youtube.com">
-            <img src="images/youtube.webp" alt="Youtube" loading="lazy">
-        </a>
+        <h3>Contact us at (916) 555 - 0195 or check out our socials:</h3>
+        <div class="links">    
+            <a href="https://instagram.com">
+                <img src="images/instagram.webp" alt="Instagram" loading="lazy">
+            </a>
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook" loading="lazy">
+            </a>
+            <a href="https://x.com">
+                <img src="images/twitter.webp" alt="Twitter" loading="lazy">
+            </a>
+            <a href="https://youtube.com">
+                <img src="images/youtube.webp" alt="Youtube" loading="lazy">
+            </a>
+        </div>
     </footer>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
