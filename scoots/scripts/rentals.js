@@ -1,4 +1,4 @@
-const check = 1;
+let check = 1;
 const rentalsURL = "https://cadeholtry.github.io/wdd230/scoots/data/rentals.json";
 
 
@@ -10,11 +10,19 @@ async function getRentals() {
 
 const displayRentals = (rentals) => {
     rentals.forEach((rental) => {
-        console.log(`#type${check}`)
         const type = document.querySelector(`#type${check}`);
-        console.log(type);
         type.innerHTML = rental.type;
-        check += 1;
+        const persons = document.querySelector(`#persons${check}`);
+        persons.innerHTML = rental.persons;
+        const rhalf = document.querySelector(`#rhalf${check}`);
+        rhalf.innerHTML = rental.reservation[0].half;
+        const whalf = document.querySelector(`#whalf${check}`);
+        whalf.innerHTML = rental.walkin[0].half;
+        const rfull = document.querySelector(`#rfull${check}`);
+        rfull.innerHTML = rental.reservation[0].full;
+        const wfull = document.querySelector(`#wfull${check}`);
+        wfull.innerHTML = rental.walkin[0].full;
+        check = check + 1;
     });
 }
 
